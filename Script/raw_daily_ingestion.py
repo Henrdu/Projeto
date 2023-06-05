@@ -51,7 +51,7 @@ def generate_path(currency, date):
     return path
 
 def save_json_azure(path, json_file):
-    connect_str = "DefaultEndpointsProtocol=https;AccountName=aulafiaead;AccountKey=T4tkZipg4JNvC9d2X0OImaCi8HFq3tgb+i8YXk2i4UHx8iuoC6PwdPWrp3GXYkj+VFjbhal9PYuG+AStdF6M0g==;EndpointSuffix=core.windows.net"
+    connect_str = "***"
     container_name = "grupo1"
     blob_name = path
 
